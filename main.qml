@@ -6,6 +6,10 @@ Rectangle {
     width: 250
     height: 250
 
+    flags: Qt.SubWindow | Qt.Tool | Qt.FramelessWindowHint | Qt.WindowSystemMenuHint | Qt.WindowStaysOnTopHint
+
+    opacity: 0.75
+
     // completely transparent background
     color: "#00FFFFFF"
 
