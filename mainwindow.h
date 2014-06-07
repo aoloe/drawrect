@@ -1,9 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QDeclarativeView>
+#include <QQuickView>
 
-class MainWindow : public QDeclarativeView
+class MainWindow : public QQuickView
 {
     Q_OBJECT
 

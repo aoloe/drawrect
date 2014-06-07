@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
-    : QDeclarativeView(parent)
+    : QQuickView(parent)
 {
     // transparent background
     setAttribute(Qt::WA_TranslucentBackground);
